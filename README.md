@@ -1,6 +1,5 @@
 # introduction-to-processing
-(italian)
-
+short italian introduction to processing - (processing 3.0.1)
 
 Una brevissima introduzione alla programmazione creativa con Processing
 
