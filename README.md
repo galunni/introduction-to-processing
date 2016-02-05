@@ -3,8 +3,8 @@ short italian introduction to processing - (processing 3.0.1)
 
 Una brevissima introduzione alla programmazione creativa con Processing
 
-index.html contiene la pagina introduttiva
-/esempi contiene il codice degli esempi
+"index.html" contiene la pagina introduttiva
+la cartella "esempi" contiene il codice degli esempi
 
 
 
