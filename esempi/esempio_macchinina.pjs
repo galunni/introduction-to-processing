@@ -1,0 +1,20 @@
+// gira su:
+// https://www.khanacademy.org/computer-programming/new/pjs
+
+noStroke();
+fill(255,60,60);
+
+rect(120,220,243,60,10);
+
+fill(191, 34, 34);
+rect(160,165,143,56);
+
+stroke(0);
+strokeWeight(5);
+fill(110, 109, 109);
+ellipse(175,286,50,50);
+ellipse(306,286,50,50);
+
+noStroke();
+fill(217, 211, 48);
+ellipse(363,249,15,25);
