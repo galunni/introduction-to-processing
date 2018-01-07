@@ -1,0 +1,112 @@
+// gira su:
+// https://www.khanacademy.org/computer-programming/new/pjs
+
+// sfondo
+noStroke();
+fill(0, 255, 238);  // cielo
+rect(0,0,400,400); 
+strokeWeight(3);
+stroke(0);
+fill(125, 240, 154); //prato
+rect(-3,330,403,70); 
+
+
+// sole
+fill(240, 250, 60);  //sole cerchio grande
+stroke(205, 219, 76);
+ellipse(50,50,90,90); 
+strokeWeight(13);
+stroke(240, 250, 60);
+line(50,50,100,104); // sole raggi
+line(50,50,50,127);
+line(50,50,121,50);
+line(50,50,0,50);
+line(50,50,0,0);
+line(50,50,0,106);
+line(50,50,50,0);
+line(50,50,100,0);
+
+
+noStroke(); // bocca sole
+fill(224, 58, 29);
+ellipse(50,54,52,54); 
+fill(240, 250, 60);
+ellipse(50,48,74,46);
+
+
+noStroke(); //sopracciglia
+fill(122, 122, 122);
+ellipse(30,40,30,30); 
+ellipse(70,40,30,30);
+fill(240, 250, 60);
+ellipse(30,47,50,28);
+ellipse(70,47,50,28);
+
+fill(255); // occhi sole (bianco)
+ellipse(30,40,30,10); 
+ellipse(70,40,30,10);
+
+fill(0, 128, 255); // occhi sole (blu)
+ellipse(30,40,11,6); 
+ellipse(70,40,11,6);
+fill(0);    // occhi pupilla sole
+ellipse(30,40,4,4); 
+ellipse(70,40,4,4);
+
+// nuvoletta
+fill(255);
+ellipse(299,58,80,87);
+ellipse(242,57,50,57);
+ellipse(268,39,50,57);
+ellipse(268,85,50,57);
+ellipse(322,83,86,77);
+ellipse(352,56,73,75);
+ellipse(310,37,70,75);
+
+    var x = 0;
+    var y = 0;
+    stroke(227, 92, 34);
+    strokeWeight(2);
+     fill(199, 66, 66); // carrozzeria
+     rect(92+x,272+y,235,41,15);
+     noStroke();
+     rect(138+x,226+y,101,17);
+     triangle(97+x,300+y,138+x,226+y,138+x,243+y);
+     triangle(302+x,300+y,227+x,226+y,235+x,243+y);
+
+     rect(135+x,230+y,10,51);
+     rect(196+x,235+y,10,51);
+     
+     fill(133, 145, 127);  // ruote
+     strokeWeight(5);
+     stroke(40);
+     ellipse(149+x,317+y,40,40);
+     ellipse(253+x, 317+y,40,40);
+     fill(118, 118, 122);  // borchie
+     ellipse(149+x,317+y,25,25);
+     ellipse(253+x, 317+y,25,25);
+     stroke(215);
+     strokeWeight(3);
+     line(149+x,317+y,159+x,317+y);
+     line(149+x,317+y,142+x,326+y);
+     line(149+x,317+y,141+x,308+y);
+     line(253+x, 317+y,253,308);
+     line(253+x, 317+y,262,324);
+     line(253+x, 317+y,246,325);
+     noFill();// bordo borchie
+     stroke(0);
+     ellipse(149+x,317+y,25,25);
+     ellipse(253+x, 317+y,25,25);
+     
+     strokeWeight(1);
+     fill(225, 227, 120); // anabbaglianti
+     ellipse(327,292,7,18);
+
+     fill(237, 77, 45); // stop
+     ellipse(93,288,7,13);
+
+     noStroke();
+     fill(201, 195, 185); // maniglie
+     ellipse(215,278,13,4);
+     ellipse(156,278,13,4);
+
