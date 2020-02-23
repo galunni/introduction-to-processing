@@ -1,12 +1,19 @@
 # introduction-to-processing
 short italian introduction to processing - (processing 3.0.1)
 
+---
+INSTALL IN A TERMINAL
+git clone https://github.com/galunni/introduction-to-processing.git # clone repository
+cd introduction-to-processing        # navigate to the repository directory
+python -m SimpleHTTPServer 8888      # start a simple web server
+open http://localhost:8888/          # open link in a browser
+
+
 Una brevissima introduzione alla programmazione creativa con Processing
 
 index.html contiene la pagina introduttiva
 
 /esempi contiene il codice degli esempi
-
 
 
 
