@@ -8,7 +8,7 @@ cd introduction-to-processing        # navigate to the repository directory<br/>
 python -m SimpleHTTPServer 8888      # start a simple web server<br/>
 open http://localhost:8888/          # open link in a browser<br/>
 
-ALTERNATIVE WEB SERVER IF PYTHON NOT INSTALLED<br/>
+ALTERNATIVE IF PYTHON NOT INSTALLED<br/>
 http-server                          # simple web server without python<br/>
 open http://127.0.0.1:8080           # default port is 8080<br/>
 
