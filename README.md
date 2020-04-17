@@ -18,9 +18,7 @@ Una brevissima introduzione alla programmazione creativa con Processing
 index.html contiene la pagina introduttiva e le istruzioni
 /esempi contiene il codice degli esempi
 
-
-
-The MIT License (MIT)
 ---
 screenshots  
+
 ![Image screenshot 1](https://raw.githubusercontent.com/galunni/introduction-to-processing/master/screenshots/screenshot-introToProcessing.jpg)
